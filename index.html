@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider/karuzela</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="carousel">
+      <button class="left"><</button>
+      <button  class="right">></button>
+    </div>
+    <div class="slider">
+      <div class="slides">
+
+        <input type="radio" name="radio_btn" id="radio1" />
+        <input type="radio" name="radio_btn" id="radio2" />
+        <input type="radio" name="radio_btn" id="radio3" />
+        <input type="radio" name="radio_btn" id="radio4" />
+        
+        <img
+          class="slide first"
+          src="https://i.picsum.photos/id/715/600/400.jpg?hmac=AWFkXfbMW1XGn1LUc7Ccov7ukxDeHmyjl-kLt_1ZnEQ"
+          alt=""
+        />
+        <img
+          class="slide"
+          src="https://i.picsum.photos/id/664/600/400.jpg?hmac=OmBB3zAnxepnB1jDWFS7mJ7kq7U2OcDD7SnnHUqTAhc"
+          alt=""
+        />
+        <img
+          class="slide"
+          src="https://i.picsum.photos/id/609/600/400.jpg?hmac=r-IiITWKZ2Q_t4oL01WKmqixoWMI-QJ7LDooJ-JiJ9c"
+          alt=""
+        />
+        <img
+          class="slide"
+          src="https://i.picsum.photos/id/377/600/400.jpg?hmac=XB3avv-YfSfNMywmJNPeKjsx9JiEJX-ckm01PweSEo0"
+          alt=""
+        />
+      
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
